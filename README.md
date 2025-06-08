@@ -16,7 +16,7 @@ Para iniciar, precisamos provisionar os serviços fundamentais no Azure que dar�
 
 Este serviço será a base para sua capacidade de pesquisa e indexação de documentos.
 
-![[Pasted image 20250608194730.png]]
+![](images/01.png)
 
 **Configurações:**
 
@@ -31,7 +31,7 @@ Após preencher, clique em **"Revisar + criar"** e, após a validação bem-suce
 
 Este recurso fornecerá as capacidades de inteligência artificial, como análise de sentimento e extração de frases-chave, que serão integradas ao seu índice de pesquisa.
 
-![[Pasted image 20250608194947.png]]
+![](images/02.png)
 
 **Configurações:**
 
@@ -46,7 +46,7 @@ Clique em **"Revisar + criar"** e, após a validação bem-sucedida, selecione *
 
 A conta de armazenamento será usada para hospedar os documentos que você deseja indexar e pesquisar.
 
-![[Pasted image 20250608194804.png]]
+![](images/03.png)
 
 **Configurações:**
 
@@ -66,7 +66,8 @@ Clique em **"Revisar"** e depois em **"Criar"**. Aguarde a conclusão da implant
 Agora que sua conta de armazenamento está pronta, vamos carregar os documentos que serão indexados.
 
 1. Na sua conta de Armazenamento do Azure, no painel de menu à esquerda, selecione **"Contêineres"**.
-![[Pasted image 20250608195517.png]]
+
+![](images/04.png)
     
 2. Crie um novo contêiner com as seguintes configurações e clique em **"Criar"**:
     
@@ -77,11 +78,11 @@ Agora que sua conta de armazenamento está pronta, vamos carregar os documentos 
     
 4. No portal do Azure, selecione o contêiner recém-criado `coffee-reviews`. Dentro do contêiner, clique em **"Upload"**.
 
-![[Pasted image 20250608195732.png]]
+![](images/05.png)
     
 5. No painel **"Carregar blob"**, clique em **"Selecionar um arquivo"**.
 
-![[Pasted image 20250608195748.png]]
+![](images/06.png)
     
 6. Na janela do explorador de arquivos, **selecione todos os arquivos** na pasta que você extraiu as avaliações de café, clique em **"Abrir"** e, em seguida, selecione **"Upload"**.
     
@@ -93,11 +94,11 @@ Use o Explorador de Pesquisa para escrever e testar consultas. O Explorador de P
 
 1. Na página _Visão geral_ do serviço de pesquisa , selecione **Explorador de pesquisa** na parte superior da tela.
 
-![[Pasted image 20250608195846.png]]
+![](images/07.png)
 
 Observe que o índice selecionado é o _índice de café_ que você criou. Abaixo do índice selecionado, altere a _visualização_ para **JSON** .
 
-![[Pasted image 20250608195902.png]]
+![](images/08.png)
 
 Com isso, podemos **filtrar** os documentos e executar diferentes tipos de consultas para extrair informações específicas do seu índice.
 
