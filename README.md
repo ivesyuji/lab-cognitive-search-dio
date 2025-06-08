@@ -101,7 +101,7 @@ Observe que o índice selecionado é o _índice de café_ que você criou. Aba
 
 Com isso, podemos **filtrar** os documentos e executar diferentes tipos de consultas para extrair informações específicas do seu índice.
 
-## **Conclusão:
+## Conclusão:
 
 Este laboratório foi fundamental para entender como construir uma **solução de busca inteligente** do zero no Azure. Aprendi na prática a:
 
